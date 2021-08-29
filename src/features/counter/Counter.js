@@ -12,7 +12,6 @@ function Counter() {
     // dispatching an action on click
     dispatch({ type: "count/increment" });
   }
-
   return (
     <div>
       <button onClick={handleOnClick}>Click</button>
